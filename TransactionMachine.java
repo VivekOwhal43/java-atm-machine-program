@@ -21,6 +21,7 @@ class TransactionMachine
     
     public static void main(String[] args)
     {
-        
+        TransactionMachine atm = new TransactionMachine();
+        atm.enterPassword();
     }
 }
